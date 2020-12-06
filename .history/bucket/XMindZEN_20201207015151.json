@@ -3,9 +3,13 @@
     "description": "XMind2020是个操作简便的思维导图工具，帮助你专注于思维导图本身",
     "homepage": "https://www.ghpym.com/xmindzen.html",
     "architecture": {
+        "32bit": {
+            "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMind2020_10.2.1_32bit.7z",
+            "hash": "27a909ca2608f655644276be975d4bd3abd6ffa726b673dd3b8c317ddc9f3f2b"
+        },
         "64bit": {
-            "url": "https://onedrive.lstheart.tk/d/ScoopSofts/XMind2020_10.2.1_64bit.7z",
-            "hash": "8b60e02e3b7885463325dd950578b8f0b24a28028d608820e92d314a2ef79465"
+            "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMind2020_10.2.1_64bit.7z",
+            "hash": "94ba626ebf4b68fdd2b340e02ed968d11d0e6e5fa6a441d3f17c21c033cf46c9"
         }
     },
     "uninstaller": {
@@ -23,8 +27,11 @@
     },
     "autoupdate": {
         "architecture": {
+            "32bit": {
+                "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMind2020_$version_32bit.7z"
+            },
             "64bit": {
-                "url": "https://onedrive.lstheart.tk/d/ScoopSofts/XMind2020_$version_64bit.7z"
+                "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/XMind2020_$version_64bit.7z"
             }
         }
     }
