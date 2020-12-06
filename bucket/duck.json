@@ -1,0 +1,18 @@
+{
+    "homepage": "https://duck.sh/",
+    "description": "Cyberduck for the command line interface",
+    "license": "GPL-2.0-or-later",
+    "version": "7.7.1.33788",
+    "url": "https://dist.duck.sh/duck-7.7.1.33788.msi",
+    "hash": "0e61e5b2206ca283876ea9eec2850add6ea0be88968d96c37ab8d531f664c3ce",
+    "extract_dir": "Cyberduck CLI",
+    "bin": "duck.exe",
+    "checkver": {
+        "url": "https://dist.duck.sh/",
+        "re": "duck-([\\d.]+).msi"
+    },
+    "autoupdate": {
+        "url": "https://dist.duck.sh/duck-$version.msi"
+    },
+    "notes": "Additional third party connection profiles can be installed to and found in '%APPDATA%\\Cyberduck\\Profiles'."
+}
