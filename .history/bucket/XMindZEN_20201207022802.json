@@ -1,0 +1,31 @@
+{
+    "version": "10.2.1",
+    "description": "XMind2020是个操作简便的思维导图工具，帮助你专注于思维导图本身",
+    "homepage": "https://www.ghpym.com/xmindzen.html",
+    "architecture": {
+        "64bit": {
+            "url": "https://onedrive.lstheart.tk/d/ScoopSofts/XMind2020_10.2.1_64bit.7z",
+            "hash": "8F3E91AD1D8EEC252E49C1C9CE6FC555CDAA9B241044BD5A99A3A75065E6D2E2"
+        }
+    },
+    "uninstaller": {
+        "script": "rd/s/q \"%appdata%\\XMind\""
+    },
+    "shortcuts": [
+        [
+            "XMind.exe",
+            "..\\XMind\\XMind ZEN"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.ghpym.com/xmindzen.html",
+        "re": " \\(([\\d.]+)\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://onedrive.lstheart.tk/d/ScoopSofts/XMind2020_$version_64bit.7z"
+            }
+        }
+    }
+}
