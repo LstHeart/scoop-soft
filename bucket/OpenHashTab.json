@@ -1,5 +1,5 @@
 {
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "为资源管理器属性加上Hash校验",
     "depends": [
         "sudo",
@@ -32,8 +32,8 @@
             }
         }
     },
-    "url": "https://github.com/namazso/OpenHashTab/releases/download/v2.2.0/OpenHashTab_setup.exe#/setup.exe",
-    "hash": "ab2a232a3b2833ef92cae9053d39af90ced0ea19f653a9e09fe1389457adedee",
+    "url": "https://github.com/namazso/OpenHashTab/releases/download/v2.3.0/OpenHashTab_setup.exe#/setup.exe",
+    "hash": "1ea29379f25647f98470a1301e81fa4895333df6bd13c4cfd6fc6c30292cac7c",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/namazso/OpenHashTab/releases/download/v$version/OpenHashTab_setup.exe#/setup.exe"
