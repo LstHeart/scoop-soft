@@ -1,0 +1,36 @@
+{
+    "homepage": "http://jacquelin.potier.free.fr/ShortcutsSearchAndReplace/",
+    "version": "1.8.0",
+    "license": "freeware",
+    "architecture": {
+        "64bit": {
+            "url": "http://jacquelin.potier.free.fr/exe/ShortcutsSearchAndReplace_bin64.zip",
+            "hash": "df9585b59aee0e02f295bb62fdf6a52d8e303a9406e6e10611237dbf699b4cd0",
+            "installer": {
+                "script": "Rename-Item \"$dir\\ShortcutsSearchAndReplace64.exe\" \"ShortcutsSearchAndReplace.exe\""
+            }
+        },
+        "32bit": {
+            "url": "http://jacquelin.potier.free.fr/exe/ShortcutsSearchAndReplace_bin.zip",
+            "hash": "028be449bb462167fa683df46378304f7305ec3599beb8cca1656486ddac89f4"
+        }
+    },
+    "bin": "ShortcutsSearchAndReplace.exe",
+    "shortcuts": [
+        [
+            "ShortcutsSearchAndReplace.exe",
+            "Shortcuts Search And Replace"
+        ]
+    ],
+    "checkver": "Version&nbsp;\\:&nbsp;</td>\\s*<td>&nbsp;([\\d.]+)",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://jacquelin.potier.free.fr/exe/ShortcutsSearchAndReplace_bin64.zip"
+            },
+            "32bit": {
+                "url": "http://jacquelin.potier.free.fr/exe/ShortcutsSearchAndReplace_bin.zip"
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "homepage": "http://dngrep.github.io/",
+    "description": "Graphical GREP tool for Windows",
+    "version": "2.9.282.0",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.9.282.0/dnGREP.2.9.282.x64.msi",
+            "hash": "4f55d90257e34791e77a8322852daad63c5c839f8ce0fd72f39c2b6968c9e8ff"
+        },
+        "32bit": {
+            "url": "https://github.com/dnGrep/dnGrep/releases/download/v2.9.282.0/dnGREP.2.9.282.x86.msi",
+            "hash": "48eb83a2a6df2ad42515ab194c15ed858d5639b9cd74a19cd5108df178346125"
+        }
+    },
+    "extract_dir": "dnGREP",
+    "bin": "dnGREP.exe",
+    "persist": "dnGREP.Settings.dat",
+    "shortcuts": [
+        [
+            "dnGREP.exe",
+            "dnGREP"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/dnGrep/dnGrep"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dnGrep/dnGrep/releases/download/v$version/dnGREP.$matchHead.x64.msi"
+            },
+            "32bit": {
+                "url": "https://github.com/dnGrep/dnGrep/releases/download/v$version/dnGREP.$matchHead.x86.msi"
+            }
+        }
+    }
+}

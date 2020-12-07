@@ -1,34 +1,22 @@
 {
-    "version": "17.73.0.0",
-    "description": "QQ音乐去广告精简版",
-    "homepage": "https://www.423down.com/193.html",
-    "depends": "sudo",
-    "extract_dir": "QQMusic",
-    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/QQMusic_v17.73.0.0.7z",
-    "hash": "267783d58b508231f8425dc7c894295f5aa96192e5de5c7f0383609db67f04dd",
-    "installer": {
-        "script": "sudo cmd /c \"$dir\\!绿化.bat\""
-    },
-    "uninstaller": {
-        "script": "sudo cmd /c \"$dir\\!卸载.bat\""
-    },
+    "homepage": "https://y.qq.com/",
+    "description": "The official QQ Music client.",
+    "version": "17.82.0",
+    "license": "Freeware",
+    "url": "https://dldir1.qq.com/music/clntupate/QQMusic_YQQWinPCDL.exe#/dl.7z",
+    "hash": "07c1908d079aed5b311ec160abc3f3f68330580b7483762df8c48d0a12d55866",
     "shortcuts": [
         [
             "QQMusic.exe",
-            "..\\腾讯软件\\QQ音乐"
-        ]
-    ],
-    "bin": [
-        [
-            "QQMusic.exe",
-            "qqmusic"
+            "QQ Music"
         ]
     ],
     "checkver": {
-        "encode": "UTF-8",
-        "re": "v([\\d.]+)"
+        "url": "https://y.qq.com/download/download.html",
+        "regex": "Windows PC <span class=\"product_list__version\">最新版:([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/QQMusic_v$version.7z"
-    }
+        "url": "https://dldir1.qq.com/music/clntupate/QQMusic_YQQWinPCDL.exe#/dl.7z"
+    },
+    "notes": "We don't persist your QQMusic data, they are still storaged in '%LOCALAPPDATA%\\Tencent\\QQMusic'."
 }

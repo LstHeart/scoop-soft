@@ -1,0 +1,30 @@
+{
+    "homepage": "https://gitee.com/calvinwilliams/EUX",
+    "license": "Apache-2.0",
+    "version": "1.1.11.0",
+    "architecture": {
+        "64bit": {
+            "url": "http://114.215.179.129/EUX/EUX-x64-v1.1.11.0-noinstall-full.zip",
+            "hash": "2845f2eca54fb2492c176a4a2fc16018487727d5e748339978ee4ebfb53d24c1"
+        }
+    },
+    "bin": "EUX.exe",
+    "shortcuts": [
+        [
+            "EUX.exe",
+            "EUX"
+        ]
+    ],
+    "persist": "conf",
+    "checkver": {
+        "url": "http://114.215.179.129/EUX/ChangeLog-CN",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://114.215.179.129/EUX/EUX-x64-v$version-noinstall-full.zip"
+            }
+        }
+    }
+}

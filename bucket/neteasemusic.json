@@ -13,17 +13,18 @@
     "shortcuts": [
         [
             "cloudmusic.exe",
-            "网易云音乐"
+            "Netease Cloud Music"
         ]
     ],
     "checkver": {
-        "url": "https://scoop-services.azurewebsites.net/checkver?app=neteasemusic",
-        "regex": "dmusic(?<randompath>[\\w/]*)/cloudmusicsetup(?<version>[\\d.]+).exe"
+        "url": "https://h404bi.azurewebsites.net/ncmversion.php",
+        "jp": "$.updateFiles[0].url",
+        "regex": "https://d1.music.126.net/dmusic/cloudmusicsetup([\\d.]+)\\.exe"
     },
     "autoupdate": {
-        "url": "https://d1.music.126.net/dmusic$matchRandompath/cloudmusicsetup$version.exe#/dl.7z",
+        "url": "https://d1.music.126.net/dmusic/cloudmusicsetup$version.exe#/dl.7z",
         "hash": {
-            "url": "https://scoop-services.azurewebsites.net/checkver?app=neteasemusic",
+            "url": "https://h404bi.azurewebsites.net/ncmversion.php",
             "jp": "$.updateFiles[0].hash"
         }
     },
