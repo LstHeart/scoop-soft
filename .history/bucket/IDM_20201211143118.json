@@ -1,12 +1,12 @@
 {
-    "version": "6.38.15.2",
+    "version": "6.38.15",
     "description": [
         "Internet Dowload Manager，能有效提高下载速度",
         "IDM+Onedrive世纪互联+千兆网=100MB/S"
     ],
     "homepage": "https://www.423down.com/575.html",
     "depends": "sudo",
-    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Inet.Download.Manager.v6.38.15.2.exe#/dl.7z",
+    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Inet.Download.Manager.v6.38.15.exe#/dl.7z",
     "hash": "647EDE54539797F4E071C060EFD18D7D80AB0806C4BCFDE25E044740F17CF4B9",
     "extract_dir": "$IDM"
     "installer": {
@@ -27,6 +27,6 @@
         "encode": "UTF-8"
     },
     "autoupdate": {
-        "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Inet.Download.Manager.v$version.exe#/dl.7z"
+        "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Inet.Download.Manager.v$version_64bit.7z"
     }
 }
