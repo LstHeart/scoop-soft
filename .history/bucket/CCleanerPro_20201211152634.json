@@ -1,6 +1,9 @@
 {
     "version": "5.75.8238",
-    "description": "CCleaner是一款免费的系统优化和隐私保护工具.它的体积小、扫描速度非常快，支持自定义清理规则，增强了应用程序清理范围和效果。",
+    "description": [
+        "CCleaner是一款免费的系统优化和隐私保护工具.",
+        "它的体积小、扫描速度非常快，支持自定义清理规则，增强了应用程序清理范围和效果。"
+    ],
     "homepage": "https://www.423down.com/716.html",
     "depends": "sudo",
     "url": "https://onedrive.lstheart.tk/d/ScoopSofts/CCleaner_Pro_v5.75.8238_x64_Plus.exe#dl.7z",
