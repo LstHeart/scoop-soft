@@ -25,10 +25,6 @@
             "IDM"
         ]
     ],
-    "notes":[
-        "安装破解版软件,安装时建议关闭杀毒软件",
-        "默认使用powershell执行指令,若桌面未生成快捷方式,请手动执行应用目录下的bat文件",
-        ""],
     "nowait": true,
     "checkver": {
         "re": "Manager ?([\\d.]+)",
