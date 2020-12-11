@@ -4,7 +4,7 @@
     "homepage": "https://www.423down.com/575.html",
     "depends": "sudo",
     "url": "https://onedrive.lstheart.tk/d/ScoopSofts/IDM/Inet_Download_Manager_v6.38.15.exe#dl.7z",
-    "hash": "94FF1246D881C3DB7EB156303309B818F85C90AADBE8D1C69BF58A321A957880",
+    "hash": "8686C3011DD0D9E23E9B8E50D1B8A077139C3EA5DD54B9AA3B8691DC07DA191E",
     "extract_dir": "IDM",
     "installer": {
         "script": "sudo cmd /c \"$dir\\!绿化.bat\""

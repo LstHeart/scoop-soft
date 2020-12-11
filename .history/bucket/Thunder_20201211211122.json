@@ -4,7 +4,7 @@
     "homepage": "https://www.423down.com/10289.html",
     "depends": "sudo",
     "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Thunder/Thunder_v11.1.4.1142.exe#dl.7z",
-    "hash": "502354F1C8BAB000A9167E51756DCECFFECC87FDEB78F65AADF6F93CB357BA0B",
+    "hash": "5E3FF2B5B850308C88DB79A9CC20A0414D5474974FF8310D9E7A859067B468A0",
     "extract_dir": "Thunder",
     "installer": {
         "script": [
@@ -13,7 +13,8 @@
     },
     "uninstaller": {
         "script": [
-            "sudo cmd /c \"$dir\\!卸载.bat\""
+            "sudo cmd /c \"$dir\\!卸载.bat\"",
+            "exit"
         ]
     },
     "bin": [

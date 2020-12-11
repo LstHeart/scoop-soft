@@ -4,7 +4,7 @@
     "homepage": "https://www.423down.com/10289.html",
     "depends": "sudo",
     "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Thunder/Thunder_v11.1.4.1142.exe#dl.7z",
-    "hash": "502354F1C8BAB000A9167E51756DCECFFECC87FDEB78F65AADF6F93CB357BA0B",
+    "hash": "1B8347FA2943C0B008960F7AC1CFC1B18FCE918F3D4C9A1FDEBEDF17E773DEC3",
     "extract_dir": "Thunder",
     "installer": {
         "script": [
