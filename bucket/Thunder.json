@@ -1,10 +1,10 @@
 {
-    "version": "11.1.4.1142",
+    "version": "8",
     "description": "迅雷11,绿色本地VIP精简版",
     "homepage": "https://www.423down.com/10289.html",
     "depends": "sudo",
-    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Thunder_v11.1.4.1142.exe#dl.7z",
-    "hash": "FE3AB70715885B680C52026DBCD705ED588AB22E7B2DD9B2E886F110F6FC3B81",
+    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Thunder_v8.exe#dl.7z",
+    "hash": "5118e8cadb95eadde79e030b4b620a41f6283e746f2fcc9cebf1cc42d7861247",
     "extract_dir": "Thunder",
     "installer": {
         "script": "sudo cmd /c \"$dir\\Thunder\\!)绿化.bat\""
