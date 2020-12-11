@@ -1,11 +1,11 @@
 {
     "version": "6.38.15.2",
-    "description": "Internet Dowload Manager，能有效提高下载速度,IDM+Onedrive世纪互联+千兆网=100MB/S",
-    "homepage": "https://www.423down.com/575.html",
+    "description": "迅雷11,绿色本地VIP精简版",
+    "homepage": "https://www.423down.com/10289.html",
     "depends": "sudo",
     "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Inet_Download_Manager_v6.38.15.2.exe#dl.7z",
     "hash": "F2D8A10F111BE0461B12C0054167402F97FA83682E44191C80F3DD8248764A30",
-    "extract_dir": "IDM",
+    "extract_dir": "Thunder",
     "installer": {
         "script": "sudo cmd /c \"$dir\\!)绿化.bat\""
     },
@@ -16,8 +16,8 @@
         "64bit": {
             "bin": [
                 [
-                    "IDMan.exe",
-                    "IDM"
+                    "Thunder.exe",
+                    "Thunder"
                 ]
             ]
         }
@@ -25,7 +25,7 @@
 
     "nowait": true,
     "checkver": {
-        "re": "Manager ?([\\d.]+)",
+        "re": "v?([\\d.]+)",
         "encode": "UTF-8"
     },
     "autoupdate": {

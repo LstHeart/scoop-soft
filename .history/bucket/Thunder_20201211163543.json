@@ -19,6 +19,12 @@
                     "IDMan.exe",
                     "IDM"
                 ]
+            ],
+            "shortcuts": [
+                [
+                    "IDMan.exe",
+                    "IDM"
+                ]
             ]
         }
     },
