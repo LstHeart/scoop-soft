@@ -1,12 +1,12 @@
 {
     "homepage": "https://www.centbrowser.cn/",
     "description": "The Most Feature Rich Chromium",
-    "version": "4.3.9.227",
+    "version": "4.3.9.241",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "http://static.centbrowser.cn/win_stable/4.3.9.227/centbrowser_4.3.9.227_x64_portable.exe#/dl.7z",
-            "hash": "d17f38aef67c04835c9859e8ecc99c0fab9b3f62c22fda5398a4535a0f105174"
+            "url": "http://static.centbrowser.cn/win_stable/4.3.9.241/centbrowser_4.3.9.241_x64_portable.exe#/dl.7z",
+            "hash": "ed83737863699e574472f45aaae559bcbd02ed071f168097863485ff22567d9d"
         }
     },
     "shortcuts": [
