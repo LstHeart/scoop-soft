@@ -4,7 +4,7 @@
     "license": "unknown",
     "url": "https://download1.dcloud.net.cn/download/HBuilderX.3.0.4.20201231.zip",
     "hash": "A3989401E12D307E7CA4A0B4D97512D83BD313DFF995353590C425ED98524890",
-    "bin": "HBuilderX\\HBuilderX.exe",
+    "bin": "HBuilderX/HBuilderX.exe",
     "shortcuts": [
         [
             "HBuilderX.exe",
