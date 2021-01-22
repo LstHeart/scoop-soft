@@ -3,8 +3,8 @@
     "description": "Xftp，用以连接Sftp等协议",
     "homepage": "https://www.ghpym.com/xftp.html",
     "depends": "sudo",
-    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Xftp/Xftp_v6.0.0191.7z",
-    "hash": "0CE565650142FF2BA96099A7D1590D2542A7C18E4F8C17065442403B5D2AD77C",
+    "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Xftp_v6.0.0191.7z",
+    "hash": "af2d3bec5c6acfec5b930b2053eef1cce124216b6bde15fc7c359f77692794a6",
     "extract_dir": "Xftp",
     "installer": {
         "script": "sudo cmd /c \"$dir\\!绿化.bat\""
@@ -29,6 +29,6 @@
         "re": " \\(([\\d.]+)\\)"
     },
     "autoupdate": {
-        "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Xftp/Xftp_v$version.7z"
+        "url": "http://xqh.ma:33001/ltrump-onedrive/raresoftware/Xftp_v$version.7z"
     }
 }
