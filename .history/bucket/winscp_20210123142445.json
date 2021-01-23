@@ -1,0 +1,35 @@
+{
+    "version": "5.17.9",
+    "description": "Copy files between a local computer and remote servers using FTP, FTPS, SCP, SFTP, WebDAV or S3 file transfer protocols.",
+    "homepage": "https://www.ghpym.com/winscp.html",
+    "license": "GPL-3.0-or-later",
+    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/WinSCP/WinSCP_v5.17.9.7z",
+    "hash": "f3e6a209fea4d34f537a2ed1b05ce0e371599eadcf23e62e22e7957f9dff74ce",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\winscp.ini\")) {",
+        "    @(",
+        "        '[Configuration\\Interface]'",
+        "        'RandomSeedFile=.\\winscp.rnd'",
+        "    ) | Add-Content -Path \"$dir\\winscp.ini\" -Encoding ASCII -Force",
+        "}"
+    ],
+    "bin": "WinSCP.exe",
+    "shortcuts": [
+        [
+            "WinSCP.exe",
+            "WinSCP"
+        ]
+    ],
+    "persist": "winscp.ini",
+    "checkver": {
+        "url": "https://www.ghpym.com/winscp.html",
+        "regex": "\\(([\\d.]+)\\)"
+    },
+    "autoupdate": {
+        "url": "https://onedrive.lstheart.tk/d/ScoopSofts/WinSCP/WinSCP_v$version.7z",
+        "hash": {
+            "url": "https://winscp.net/download/WinSCP-$version-ReadMe.txt",
+            "regex": "(?sm)$basename.*?SHA-256: $sha256"
+        }
+    }
+}
