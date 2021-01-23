@@ -1,10 +1,10 @@
 {
-    "version": "6.0.0191",
+    "version": "19042.746",
     "description": "Xftp，用以连接Sftp等协议",
     "homepage": "https://www.ghpym.com/xftp.html",
     "depends": "sudo",
-    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Xftp/Xftp_v6.0.0191.7z",
-    "hash": "0CE565650142FF2BA96099A7D1590D2542A7C18E4F8C17065442403B5D2AD77C",
+    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Xftp/Xftp_v19042.746.7z",
+    "hash": "5118e8cadb95eadde79e030b4b620a41f6283e746f2fcc9cebf1cc42d7861247",
     "installer": {
         "script": "sudo cmd /c \"$dir\\!绿化.bat\""
     },
