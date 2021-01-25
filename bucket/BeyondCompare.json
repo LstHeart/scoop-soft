@@ -1,9 +1,9 @@
 {
-    "version": "5",
+    "version": "4.3.7",
     "description": "文件比较工具",
     "homepage": "https://tmioe.com/95.html",
     "license": "GPL-3.0-or-later",
-    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/BeyondCopmare/BeyondCompare_v5.7z",
+    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/BeyondCopmare/BeyondCompare_v4.3.7.7z",
     "hash": "5118e8cadb95eadde79e030b4b620a41f6283e746f2fcc9cebf1cc42d7861247",
     "bin": [
         "BCompare.exe",
@@ -21,7 +21,7 @@
     ],
     "checkver": {
         "url": "https://tmioe.com/95.html",
-        "regex": "\\(([\\d.]+)\\)"
+        "regex": "Beyond Compare ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://onedrive.lstheart.tk/d/ScoopSofts/BeyondCopmare/BeyondCompare_v$version.7z"
