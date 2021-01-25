@@ -1,13 +1,13 @@
 {
-    "version": "4.3.7",
+    "version": "5",
     "description": "文件比较工具",
     "homepage": "https://tmioe.com/95.html",
     "license": "GPL-3.0-or-later",
-    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/BeyondCopmare/BeyondCompare_v4.3.7.7z",
-    "hash": "DB8E4C2CFF895D7AEB1BA926E11E19D9BA54C97707DEFDFE5D56E4FD6A440854",
+    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/BeyondCopmare/BeyondCompare_v5.7z",
+    "hash": "5118e8cadb95eadde79e030b4b620a41f6283e746f2fcc9cebf1cc42d7861247",
     "bin": [
-            "BCompare.exe",
-            "BCClipboard.exe"
+        "BCompare.exe",
+        "BCClipboard.exe"
     ],
     "shortcuts": [
         [
