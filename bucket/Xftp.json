@@ -1,9 +1,9 @@
 {
-    "version": "10.1.1001.10",
+    "version": "19042.782",
     "description": "Xftp，用以连接Sftp等协议",
     "homepage": "https://www.ghpym.com/xftp.html",
     "depends": "sudo",
-    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Xftp/Xftp_v10.1.1001.10.7z",
+    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Xftp/Xftp_v19042.782.7z",
     "hash": "5118e8cadb95eadde79e030b4b620a41f6283e746f2fcc9cebf1cc42d7861247",
     "installer": {
         "script": "sudo cmd /c \"$dir\\!绿化.bat\""
