@@ -1,9 +1,9 @@
 {
-    "version": "11.1.9.1518",
+    "version": "11.1.8.1418",
     "description": "迅雷11,绿色本地VIP精简版",
     "homepage": "https://www.423down.com/10289.html",
     "depends": "sudo",
-    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Thunder/Thunder_v11.1.9.1518.exe#dl.7z",
+    "url": "https://onedrive.lstheart.tk/d/ScoopSofts/Thunder/Thunder_v11.1.8.1418.exe#dl.7z",
     "hash": "5118e8cadb95eadde79e030b4b620a41f6283e746f2fcc9cebf1cc42d7861247",
     "extract_dir": "Thunder",
     "installer": {
