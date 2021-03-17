@@ -6,7 +6,7 @@
     "hash": "ed8462da0dd9d8cba659b3a40c23911170cf5d192c834cc480c9907fc937af2d",
     "extract_dir": "W3Cschool-win32-x64",
     "bin": "W3Cschool.exe",
-    "shortcuts": [["W3Cschool.exe", ".W3CSchool"]],
+    "shortcuts": [["W3Cschool.exe", "W3CSchool"]],
     "checkver": {
         "url": "https://www.w3cschool.cn/download/less.html#downloadpc",
         "re": " (<div class=\"download-nav-box\">[\\S\\s]<a href=\"(.*?)\" class=.*[^>]>Windows/gm)"
