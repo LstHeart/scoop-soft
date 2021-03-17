@@ -3,7 +3,7 @@
     "description": "w3cschool 离线版客户端",
     "homepage": "https://www.w3cschool.cn/download/less.html#downloadpc",
     "url": "https://7npmedia.w3cschool.cn/W3Cschool-v2.1.0-win32-x64.zip",
-    "hash": "5118e8cadb95eadde79e030b4b620a41f6283e746f2fcc9cebf1cc42d7861247",
+    "hash": "ed8462da0dd9d8cba659b3a40c23911170cf5d192c834cc480c9907fc937af2d",
     "bin": "W3Cschool.exe",
     "shortcuts": [["W3Cschool.exe", ".W3CSchool"]],
     "checkver": {
