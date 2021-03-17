@@ -1,0 +1,16 @@
+{
+    "version": "2.1.0",
+    "description": "w3cschool 离线版客户端",
+    "homepage": "https://www.w3cschool.cn/download/less.html#downloadpc",
+    "url": "https://7npmedia.w3cschool.cn/W3Cschool-v2.1.0-win32-x64.zip",
+    "hash": "5118e8cadb95eadde79e030b4b620a41f6283e746f2fcc9cebf1cc42d7861247",
+    "bin": "W3Cschool.exe",
+    "shortcuts": [["W3Cschool.exe", ".W3CSchool"]],
+    "checkver": {
+        "url": "https://www.w3cschool.cn/download/less.html#downloadpc",
+        "re": " (<div class=\"download-nav-box\">[\\S\\s]<a href=\"(.*?)\" class=.*[^>]>Windows/gm)"
+    },
+    "autoupdate": {
+        "url": "https://7npmedia.w3cschool.cn/W3Cschool-v$version-win32-x64.zip"
+    }
+}
