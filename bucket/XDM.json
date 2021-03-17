@@ -9,12 +9,7 @@
         "script": "Set-Content \"$dir\\XDM.bat\" '@\"%~dp0java-runtime\\bin\\javaw.exe\" -jar \"%~dp0xdman.jar\" %*' -Encoding Ascii"
     },
     "bin": "XDM.bat",
-    "shortcuts": [
-        [
-            "XDM.bat",
-            "Xtreme Download Manager"
-        ]
-    ],
+    "shortcuts": [["XDM.bat", "Xtreme Download Manager"]],
     "checkver": {
         "github": "https://github.com/subhra74/xdm"
     },
