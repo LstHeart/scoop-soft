@@ -1,9 +1,9 @@
 {
     "homepage": "http://www.bookxnote.com/",
     "license": "Proprietary",
-    "version": "2.0.0.1069",
-    "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x86-2.0.0.1069-20211014.zip",
-    "hash": "94bd8c2c676f63c373e3a8b99cd0e602c09f4cacec609508655e8ac688dde428",
+    "version": "2.0.0.1070",
+    "url": "http://www.bookxnote.com/setup/bookxnotepro-windows-x86-2.0.0.1070-20211027.zip",
+    "hash": "748571ed4a92bc58f2d1c08f34513549c14a15572ab09397bb73eba04a854485",
     "installer": {
         "script": [
             "$exefile = (Get-ChildItem \"$dir\" '*.exe' | Select-Object -First 1).FullName",
