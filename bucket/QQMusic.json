@@ -1,10 +1,10 @@
 {
     "homepage": "https://y.qq.com/",
     "description": "The official QQ Music client.",
-    "version": "18.47.0",
+    "version": "18.51.0",
     "license": "Freeware",
     "url": "https://dldir1.qq.com/music/clntupate/QQMusic_YQQWinPCDL.exe#/dl.7z",
-    "hash": "eedc7e92568234d98dbed84ddeee6775ee391358cb01eff5269525cbafd18e37",
+    "hash": "dfa2e179139841037a8a0367ba1958d9d407177916db9ddef65d8c6032e33f85",
     "shortcuts": [
         [
             "QQMusic.exe",
