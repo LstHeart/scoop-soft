@@ -1,12 +1,13 @@
 {
     "homepage": "https://work.weixin.qq.com/",
     "description": "Connection Makes a Smarter Business",
-    "version": "nightly",
+    "version": "4.0.3",
     "license": {
         "identifier": "EULA",
         "url": "https://work.weixin.qq.com/nl/eula"
     },
-    "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/dl.7z",
+    "url": "https://dldir1.qq.com/wework/work_weixin/WeCom_4.0.3.6007.exe#/dl.7z",
+    "hash": "EBDFFDECD7FB10CF301ED047F044A719245E04F4B4AA1487E17629968DEFBB71",
     "shortcuts": [
         [
             "WXWork.exe",
